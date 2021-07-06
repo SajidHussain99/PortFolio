@@ -273,6 +273,14 @@ background:url(font) .s-box-text strong {
   font-size: 1.2rem;
   font-weight: bold;
 }
+.pCard {
+  height: 300px;
+  width: 15rem;
+  border: 1px solid red;
+}
+.cardDiscrp {
+  color: var(--mainFonts-color);
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
@@ -313,7 +321,13 @@ background:url(font) .s-box-text strong {
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+  .projectCard {
+    width: 600px;
+  }
+  .pImgDiv {
+    width: 100%;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
