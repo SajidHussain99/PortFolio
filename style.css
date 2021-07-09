@@ -37,7 +37,7 @@ nav {
   justify-content: space-between;
   padding: 10px 0;
   margin: auto;
-  border-bottom: 1px solid var(--mainFonts-color);
+  border-bottom: 2px solid var(--mainFonts-color);
 }
 
 nav ul {
@@ -117,6 +117,27 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+.downBtn,
+.sendBtn {
+  background-color: var(--secondary-color);
+  padding: 10px 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.downBtn:hover,
+.sendBtn:hover {
+  background-color: var(--mainFonts-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.imgDive {
+  height: 220px;
+  width: 180px;
+}
+
 .img-box2 {
   /* width: 50%; */
   display: flex;
@@ -174,7 +195,7 @@ nav ul li a:hover {
 /* ///////////// responsive //////// */
 .social-col {
   padding-top: 25vh;
-  border-right: 1px solid var(--mainFonts-color);
+  border-right: 2px solid var(--mainFonts-color);
   background-color: #1a202e;
 }
 .r2 {
@@ -191,7 +212,7 @@ nav ul li a:hover {
 .skills-heading h1 {
   font-size: 30px;
   color: var(--secondary-color);
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .about-me p {
@@ -210,7 +231,11 @@ nav ul li a:hover {
 }
 .subSkillH {
   color: var(--mainFonts-color);
-  margin-top: -5%;
+  /* margin-top: -5%; */
+}
+
+.para_text {
+  color: var(--para-color);
 }
 
 .s-box-container {
@@ -281,6 +306,26 @@ background:url(font) .s-box-text strong {
 .cardDiscrp {
   color: var(--mainFonts-color);
 }
+.inputTags {
+  width: 80%;
+  border-radius: 15px;
+  padding: 5px;
+  border-color: var(--mainFonts-color);
+  background-color: var(--primary-color);
+}
+/* footer start */
+.footerSection {
+  background-color: #1a202e;
+  border-top: 2px solid var(--mainFonts-color);
+}
+.fRights {
+  color: darkorange;
+}
+.fEmail {
+  color: var(--mainFonts-color);
+}
+
+/* footer end */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
